@@ -15,7 +15,7 @@ const greeting = {
     'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    '',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -114,25 +114,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
+      schoolName: 'Dokuz Eylül University',
       logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
+      subHeader: 'PhD in Computer Science',
+      duration: '2015 - Current',
+      desc: 'A Predictive Maintenance Model by Using Artificial Intelligence',
+      descBullets: ['big data, tensorflow, ai'],
     },
     {
-      schoolName: 'Stanford University',
+      schoolName: 'Dokuz Eylül University',
+      logo: require('./assets/images/stanfordLogo.png'),
+      subHeader: 'Master of Science in Computer Science',
+      duration: '2012 - 2015',
+      desc:
+        'Tubitak 1002 Program, Security Issues of a Recent RFID Multi Tagging Protocol (DOI : 10.14569/IJACSA.2015.060102)',
+      descBullets: ['security, nfc, mobile, health'],
+    },
+    {
+      schoolName: 'Dokuz Eylül University',
       logo: require('./assets/images/stanfordLogo.png'),
       subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
+      duration: '2006 - 2012',
+      desc: 'Image Processing',
+      descBullets: ['opencv, stasm, image processing'],
+    }
   ],
 };
 
