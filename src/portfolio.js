@@ -115,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: 'Dokuz Eylül University',
-      logo: require('./assets/images/harvardLogo.png'),
+      logo: require('./assets/images/deuLogo.png'),
       subHeader: 'PhD in Computer Science',
       duration: '2015 - Current',
       desc: 'A Predictive Maintenance Model by Using Artificial Intelligence',
@@ -123,7 +123,7 @@ const educationInfo = {
     },
     {
       schoolName: 'Dokuz Eylül University',
-      logo: require('./assets/images/stanfordLogo.png'),
+      logo: require('./assets/images/deuLogo.png'),
       subHeader: 'Master of Science in Computer Science',
       duration: '2012 - 2015',
       desc:
@@ -132,7 +132,7 @@ const educationInfo = {
     },
     {
       schoolName: 'Dokuz Eylül University',
-      logo: require('./assets/images/stanfordLogo.png'),
+      logo: require('./assets/images/deuLogo.png'),
       subHeader: 'Bachelor of Science in Computer Science',
       duration: '2006 - 2012',
       desc: 'Image Processing',
